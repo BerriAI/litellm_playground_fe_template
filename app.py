@@ -4,7 +4,7 @@ import requests
 
 # Function to get model outputs
 def get_model_output_thread(prompt, model_name, outputs, idx):
-    url = "http://localhost:4000/chat/completions" ## REPLACE THIS WITH YOUR DEPLOYED ENDPOINT
+    url = "http://localhost:4000/chat/completions" ## COMPLETION CALL -- assumes your server is running on port 4000
     headers = {
         "Content-Type": "application/json"
     }
