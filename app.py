@@ -27,7 +27,7 @@ def get_model_output_thread(prompt, model_name, outputs, idx):
 # Streamlit app
 def main():
     st.title("My LLM API Playground")
-    st.subheader("Powered by [LiteLLM]((https://github.com/BerriAI/litellm/))")
+    st.subheader("Powered by [LiteLLM](https://github.com/BerriAI/litellm/)")
 
     # Sidebar for user input
     st.header("User Input")
